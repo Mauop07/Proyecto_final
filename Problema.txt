@@ -1,0 +1,14 @@
+Este programa le facilita al trabajador la entrada de datos y los cálculos para obtener una cotización de seguro, 
+hasta el momento nos permite agregar recargos al precio base del seguro dependiendo del rango de edad del cliente, 
+de su cónyuge (si aplica) y de la cantidad de hijos que tienen (si aplica).
+
+El primer cambio que agregaremos es permitir que el programa siga funcionando hasta que el trabajador lo indique 
+con la palabra "Salir", luego, agregaremos un par de recargos extra para el total de la cotización.
+
+El primer recargo extra será por el número de propiedades que el asegurado tenga a su nombre, 
+agregaremos un recargo del 35% por propiedad.
+
+El segundo recargo extra será en base de que tan alto sea su salario, el 5%.
+
+Con estas mejoras el trabajador llevará un mejor ritmo en su trabajo, las cotizaciones se entregarán 
+rápidamente y la satisfacción de los clientes mejorará en poco tiempo.

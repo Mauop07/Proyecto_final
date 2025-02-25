@@ -1,0 +1,70 @@
+1.	Definir una variable para el precio base del seguro
+
+2.	Definir variables con los recargos por cada grupo de edad del asegurado
+
+3.	Definir variables con los recargos por cada grupo de edad de su cónyuge
+
+4.	Definir variables con los recargos por cada hijo o hija
+
+5.	Definir variables con los recargos por cada propiedad del asegurado
+
+6.	Definir variables con los recargos por el salario del asegurado
+
+7.	Definiremos variables iniciales para el recargo y recargo total
+
+8.	Definiremos variables iniciales para el precio total del seguro
+
+9.	Definiremos una variable de tipo string vacía llamada "salida"
+
+10.	Abriremos un ciclo While con el argumento de que mientras la variable "salida" no tenga el valor "SALIR" el programa debe volver al inicio, de lo contrario, se cerrará.
+
+11.	Mostraremos un mensaje pidiendo el nombre del asegurado y lo guardaremos en una variable llamada "nombre"
+
+12.	Pediremos la edad del asegurado y la guardaremos en la variable "edad"
+
+13.	Le preguntaremos al asegurado si está casado o no.
+
+14.	Si el asegurado no está casado, saltar al paso 19
+
+15.	Si el asegurado está casado, le pediremos la edad de su cónyuge y la guardaremos en la variable “edad_conyuge”
+
+16.	Convertiremos la edad de su cónyuge a valor numérico y lo guardaremos en la variable “edad_conyuge_numero”
+
+17.	Le preguntaremos al asegurado si tiene hijos o no
+
+18.	Si el asegurado tiene hijos le preguntaremos cuantos, y lo convertiremos a valor numérico para guardarlo en la variable “cantidad_hijos”
+
+19.	Le preguntamos al asegurado si tiene propiedades a su nombre
+
+20.	Si el asegurado no tiene propiedades saltamos al paso 22
+
+21.	Si las tiene, le preguntamos cuantas propiedades tiene a su nombre y guardamos el dato en la variable “cantidad_propiedades” con valor numérico 
+
+22.	Le pedimos el salario al asegurado para guardarlo en la variable “salario” con valor numérico
+
+23.	Ahora calcularemos los recargos de acuerdo a la edad del asegurado
+
+24.	Si el asegurado está entre los 18 y 24 años, se le agregará un recargo del 10%, la variable recargo será igual al precio base multiplicado por 10% y se sumará al recargo total
+
+25.	Si el asegurado está entre los 25 y 49, se le agregará un recargo del 20% la variable recargo será igual al precio base multiplicado por 20% y se sumará al recargo total
+
+26.	Si el asegurado es mayor a 50 años, se le agregará un recargo del 30% la variable recargo será igual al precio base multiplicado por 30% y se sumará al recargo total
+
+27.	Si el asegurado está casado haremos el mismo cálculo con la edad de su cónyuge
+
+28.	Si el asegurado tiene hijos se le agregará un recargo del 20% por cada hijo, la variable recargo será igual al precio base multiplicado por 20% multiplicado por la cantidad de hijos y se sumará al recargo total
+
+29.	Si el asegurado tiene propiedades se le agregará un recargo del 35% por cada propiedad, la variable recargo será igual al precio base multiplicado por 35% multiplicado por la cantidad de propiedades y se sumará al recargo total
+
+30.	Mientras que el salario del asegurado sea mayor a cero, se multiplicara por 5% y se agregara a la variable recargo, luego se sumara a la variable recargo total
+
+31.	Se hará el calculo final para el precio total, la variable precio final será igual al precio base más el recargo total lo cual incluye todos los recargos anteriores
+
+32.	Se le mostrará un mensaje al asegurado mostrando su nombre, el recargo total, y el precio total.
+
+33.	Se le preguntará al usuario si quiere salir
+
+34.	Si el usuario escribe “Salir” el programa se despide y se Cierra
+
+35.	Si el usuario escribe otro valor que no sea “Salir”, el programa vuelve al inicio y pregunta el nombre del siguiente asegurado.
+
