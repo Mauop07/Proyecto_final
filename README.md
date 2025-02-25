@@ -1,3 +1,5 @@
+Este repositorio cuenta con licencia conforme a los términos de la licencia MIT
+
 Este programa funciona solicitando una serie de datos al usuario para luego hacer cálculos y simular el precio total de un seguro.
 
 Este total varía según distintos factores como su rango de edad, si está casado o no, si tiene hijos y cuantos hijos, si tiene propiedades y cuantas propiedades a su nombre, y su salario, 
